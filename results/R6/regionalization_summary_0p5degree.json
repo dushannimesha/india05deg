@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "region": "R6",
+  "input_dataset": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_monthly_1982_2011_qc.parquet",
+  "source_cell_size_degrees": 0.5,
+  "source_region_id_count": 239,
+  "analysis_region_id_count": 228,
+  "excluded_incomplete_region_id_count": 11,
+  "excluded_incomplete_region_ids": [
+    "INR_10.00_72.00",
+    "INR_10.00_73.50",
+    "INR_10.50_72.00",
+    "INR_10.50_72.50",
+    "INR_11.00_72.00",
+    "INR_11.00_72.50",
+    "INR_11.00_73.00",
+    "INR_11.50_72.00",
+    "INR_11.50_72.50",
+    "INR_8.00_72.50",
+    "INR_8.00_73.00"
+  ],
+  "excluded_source_rows": 3960,
+  "source_missing_values": 47520,
+  "regional_monthly_rows": 82080,
+  "months_per_region_id": 360,
+  "total_aet_corrected_records": 4605,
+  "regional_monthly_parquet": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_regional_monthly_0p5degree.parquet",
+  "regional_monthly_csv": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_regional_monthly_0p5degree.csv.gz",
+  "analysis_dataset": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_monthly_1982_2011_analysis.parquet",
+  "analysis_csv": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_monthly_1982_2011_analysis.csv.gz",
+  "region_inventory": "/new-home/e24/e24438/india05deg/results/R6/region_inventory_0p5degree.csv",
+  "incomplete_region_ids": "/new-home/e24/e24438/india05deg/results/R6/incomplete_region_ids.csv"
+}

@@ -1,0 +1,12 @@
+region_id,records,unique_months,missing_values,complete,reason
+INR_10.00_72.00,360,360,4320,False,missing hydrology values
+INR_10.00_73.50,360,360,4320,False,missing hydrology values
+INR_10.50_72.00,360,360,4320,False,missing hydrology values
+INR_10.50_72.50,360,360,4320,False,missing hydrology values
+INR_11.00_72.00,360,360,4320,False,missing hydrology values
+INR_11.00_72.50,360,360,4320,False,missing hydrology values
+INR_11.00_73.00,360,360,4320,False,missing hydrology values
+INR_11.50_72.00,360,360,4320,False,missing hydrology values
+INR_11.50_72.50,360,360,4320,False,missing hydrology values
+INR_8.00_72.50,360,360,4320,False,missing hydrology values
+INR_8.00_73.00,360,360,4320,False,missing hydrology values

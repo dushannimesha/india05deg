@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "region": "R8",
+  "suspect_cell_count": 2,
+  "suspect_region_ids": [
+    "INR_9.00_79.00",
+    "INR_9.50_79.00"
+  ],
+  "skipped_incomplete_suspect_region_ids": [],
+  "neighbours_per_suspect_cell": 8,
+  "diagnostic_only": true,
+  "cells_removed": 0,
+  "recommendation": "Review per-cell neighbor metrics before any exclusion decision."
+}

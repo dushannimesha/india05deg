@@ -1,0 +1,17 @@
+target,depth_label,component,component_label,primary_alpha,sensitivity_alpha,primary_dominant_lag,sensitivity_dominant_lag,dominant_lag_agreement,primary_memory_index_months,sensitivity_memory_index_months,memory_index_difference_months,primary_net_effect,sensitivity_net_effect
+SM_0_10cm_mm,0–10 cm,C1,January eastern,30000.0,,3,,,1.70806120189559,,,0.02629532614203828,0.0
+SM_0_10cm_mm,0–10 cm,C2,May–June southwest,30000.0,,0,,,0.9312782018255725,,,-0.004162052143325554,0.0
+SM_0_10cm_mm,0–10 cm,C3,April–October,30000.0,,3,,,1.6236755264384897,,,0.04059299671884463,0.0
+SM_0_10cm_mm,0–10 cm,C4,November northern,30000.0,,0,,,1.3940935559790049,,,-0.01182829431288463,0.0
+SM_10_40cm_mm,10–40 cm,C1,January eastern,30000.0,,3,,,1.7186292226115718,,,0.029979251017792138,0.0
+SM_10_40cm_mm,10–40 cm,C2,May–June southwest,30000.0,,3,,,1.6703689728597586,,,0.0016055343542543236,0.0
+SM_10_40cm_mm,10–40 cm,C3,April–October,30000.0,,3,,,1.5660499812157478,,,0.047266272113736,0.0
+SM_10_40cm_mm,10–40 cm,C4,November northern,30000.0,,3,,,1.5264859234804986,,,-0.009802164617497274,0.0
+SM_40_100cm_mm,40–100 cm,C1,January eastern,30000.0,,3,,,1.7733053276558264,,,0.03562353966318262,0.0
+SM_40_100cm_mm,40–100 cm,C2,May–June southwest,30000.0,,3,,,2.041422676491499,,,0.011975951997377339,0.0
+SM_40_100cm_mm,40–100 cm,C3,April–October,30000.0,,3,,,1.5569067975810758,,,0.059587649137837095,0.0
+SM_40_100cm_mm,40–100 cm,C4,November northern,30000.0,,3,,,1.6195616428944573,,,-0.005392352560185067,0.0
+SM_100_200cm_mm,100–200 cm,C1,January eastern,30000.0,,3,,,1.9681927818101699,,,0.02708049830090372,0.0
+SM_100_200cm_mm,100–200 cm,C2,May–June southwest,30000.0,,3,,,2.0270538264725206,,,0.008205277047514028,0.0
+SM_100_200cm_mm,100–200 cm,C3,April–October,30000.0,,3,,,1.569944442281507,,,0.05380862378447657,0.0
+SM_100_200cm_mm,100–200 cm,C4,November northern,30000.0,,3,,,1.5477115019634504,,,-0.009838294959898986,0.0

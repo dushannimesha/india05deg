@@ -1,0 +1,9 @@
+alpha_policy,target,depth_label,mean_memory_index_months,median_memory_index_months,minimum_memory_index_months,maximum_memory_index_months,depth_order
+minimum_geographic_cv_rmse,SM_0_10cm_mm,0–10 cm,1.4142771215346643,1.5088845412087473,0.9312782018255725,1.70806120189559,0
+minimum_geographic_cv_rmse,SM_10_40cm_mm,10–40 cm,1.6203835250418943,1.618209477037753,1.5264859234804986,1.7186292226115718,1
+minimum_geographic_cv_rmse,SM_40_100cm_mm,40–100 cm,1.7477991111557147,1.6964334852751417,1.5569067975810758,2.041422676491499,2
+minimum_geographic_cv_rmse,SM_100_200cm_mm,100–200 cm,1.778225638131912,1.7690686120458383,1.5477115019634504,2.0270538264725206,3
+one_standard_error,SM_0_10cm_mm,0–10 cm,,,,,0
+one_standard_error,SM_10_40cm_mm,10–40 cm,,,,,1
+one_standard_error,SM_40_100cm_mm,40–100 cm,,,,,2
+one_standard_error,SM_100_200cm_mm,100–200 cm,,,,,3

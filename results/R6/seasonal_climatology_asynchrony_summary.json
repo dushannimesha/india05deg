@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "region": "R6",
+  "input_dataset": "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_regional_monthly_0p5degree.parquet",
+  "region_count": 228,
+  "regional_monthly_rows": 82080,
+  "climatology_rows_wide": 2736,
+  "climatology_rows_long": 13680,
+  "years": "1982-2011",
+  "regions_with_positive_best_lag": 225,
+  "regions_with_best_lag_at_least_2_months": 28,
+  "best_lag_counts": {
+    "0": 3,
+    "1": 197,
+    "2": 28
+  },
+  "median_same_month_precipitation_sm_correlation": 0.6420226855998223,
+  "minimum_same_month_precipitation_sm_correlation": 0.2565690587396934,
+  "maximum_same_month_precipitation_sm_correlation": 0.7878256281259277,
+  "runoff_control_class_counts": {
+    "mixed": 135,
+    "precipitation-dominant": 83,
+    "storage-dominant": 7,
+    "undetermined": 3
+  },
+  "small_regions_lt_4_cells": 0,
+  "regional_climatology_wide": "/new-home/e24/e24438/india05deg/data/processed/R6/regional_monthly_climatology_1982_2011_wide.csv",
+  "regional_climatology_long": "/new-home/e24/e24438/india05deg/data/processed/R6/regional_monthly_climatology_1982_2011_long.csv",
+  "national_climatology": "/new-home/e24/e24438/india05deg/results/R6/partition_monthly_climatology_1982_2011.csv",
+  "regional_metrics": "/new-home/e24/e24438/india05deg/results/R6/regional_seasonality_asynchrony_metrics.csv",
+  "asynchrony_ranking": "/new-home/e24/e24438/india05deg/results/R6/regional_asynchrony_ranking.csv"
+}

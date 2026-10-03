@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "dataset": "/new-home/e24/e24438/india05deg/data/processed/pinn_climatology_features_k4_lag3.parquet",
+  "target": "SM_total_mm",
+  "feature_count": 19,
+  "precipitation_feature_count": 16,
+  "split_sizes": {
+    "train": 9384,
+    "validation": 2346,
+    "test": 2346
+  },
+  "ridge_alpha_grid": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "selected_ridge_alpha": 0.0001,
+  "neural_seeds": [
+    20260806,
+    20260807,
+    20260808,
+    20260809,
+    20260810
+  ],
+  "physics_lambdas": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "hidden_dimensions": [
+    64,
+    64
+  ],
+  "maximum_epochs": 2500,
+  "early_stopping_patience": 200,
+  "selection_status": "PENDING_REVIEW_OF_VALIDATION_ACCURACY_AND_GRADIENT_VIOLATIONS",
+  "all_runs": "/new-home/e24/e24438/india05deg/results/tables/total_sm_model_sweep_all_runs.csv",
+  "summary_table": "/new-home/e24/e24438/india05deg/results/tables/total_sm_model_sweep_summary.csv",
+  "predictions": "/new-home/e24/e24438/india05deg/results/tables/total_sm_model_sweep_predictions.csv.gz",
+  "model_directory": "/new-home/e24/e24438/india05deg/results/models/stage07",
+  "scalers": "/new-home/e24/e24438/india05deg/results/models/stage07/training_scalers.joblib"
+}

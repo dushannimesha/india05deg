@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "extended_alpha_grid": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0,
+    30000.0,
+    100000.0,
+    300000.0,
+    1000000.0
+  ],
+  "spatial_unit_count": 1173,
+  "spatial_unit_month_row_count": 14076,
+  "spatial_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "targets_still_at_upper_boundary": [],
+  "targets_using_intercept_only_sensitivity": [
+    "SM_0_10cm_mm",
+    "SM_10_40cm_mm",
+    "SM_40_100cm_mm",
+    "SM_100_200cm_mm"
+  ],
+  "one_standard_error_policy": "Choose intercept-only when its geographic-CV RMSE is within the best finite Ridge alpha's one-standard-error threshold; otherwise use the largest eligible finite Ridge alpha.",
+  "decision_table": "/new-home/e24/e24438/india05deg/results/tables/ridge_alpha_extended_decision.csv",
+  "alpha_selection_table": "/new-home/e24/e24438/india05deg/results/tables/ridge_alpha_extended_selection.csv",
+  "fold_table": "/new-home/e24/e24438/india05deg/results/tables/ridge_alpha_extended_cv_folds.csv"
+}

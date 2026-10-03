@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "pinn_dataset": "/new-home/e24/e24438/india05deg/data/processed/pinn_climatology_features_k4_lag3.parquet",
+  "regional_dataset_files": [
+    "/new-home/e24/e24438/india05deg/data/processed/R1/india_R1_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R2/india_R2_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R3/india_R3_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R4/india_R4_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R5/india_R5_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R6/india_R6_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R7/india_R7_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R8/india_R8_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R9/india_R9_hydrology_regional_monthly_0p5degree.parquet",
+    "/new-home/e24/e24438/india05deg/data/processed/R10/india_R10_hydrology_regional_monthly_0p5degree.parquet"
+  ],
+  "pinn_runoff_target": "runoff_mm",
+  "regional_total_runoff_column": "total_runoff_mm",
+  "regional_surface_runoff_column": "surface_runoff_mm",
+  "regional_subsurface_runoff_column": "subsurface_runoff_mm",
+  "surface_runoff_recovered": true,
+  "subsurface_runoff_recovered": true,
+  "maximum_absolute_pinn_vs_source_total_difference_mm": 0.0,
+  "mean_absolute_pinn_vs_source_total_difference_mm": 0.0,
+  "pinn_runoff_matches_source_total_within_1e_4_mm": true,
+  "maximum_surface_plus_subsurface_identity_error_mm": 8983.22857149454,
+  "mean_surface_plus_subsurface_identity_error_mm": 80.25110953014931,
+  "runoff_component_identity_pass_1e_4_mm": false
+}

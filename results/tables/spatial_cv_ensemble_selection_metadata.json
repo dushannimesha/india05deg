@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "reference_configuration": "MLP",
+  "bootstrap_iterations": 20000,
+  "bootstrap_unit": "Complete regional unit with all 12 months.",
+  "spatial_unit_count": 1173,
+  "spatial_unit_month_count": 14076,
+  "core_spatial_unit_count": 0,
+  "best_ensemble_configuration_by_rmse": "PINN_P_lambda10",
+  "configurations_within_one_percent_of_best": [
+    "MLP",
+    "PINN_P_lambda10",
+    "PINN_P_PET_lambda1",
+    "PINN_P_PET_lambda10"
+  ],
+  "selection_interpretation": "Statistical superiority requires the region-block 95% interval for RMSE difference to exclude zero. Otherwise treat models as predictively indistinguishable and select using physical consistency and scientific defensibility.",
+  "ensemble_summary": "/new-home/e24/e24438/india05deg/results/tables/spatial_cv_ensemble_summary.csv",
+  "bootstrap_comparisons": "/new-home/e24/e24438/india05deg/results/tables/spatial_cv_ensemble_block_bootstrap.csv",
+  "region_metrics": "/new-home/e24/e24438/india05deg/results/tables/spatial_cv_ensemble_region_metrics.csv",
+  "fold_metrics": "/new-home/e24/e24438/india05deg/results/tables/spatial_cv_ensemble_fold_metrics.csv",
+  "ensemble_predictions": "/new-home/e24/e24438/india05deg/results/tables/spatial_cv_ensemble_predictions.csv.gz"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "partition": "R8",
+  "bootstrap_iterations_per_region": 1000,
+  "random_seed": 20260813,
+  "grid_cell_count": 104,
+  "robustness_classes_all_grid_cells": {
+    "strong": 94,
+    "moderate": 6,
+    "weak": 4
+  },
+  "regions_with_positive_lag_support_ge_0_90": 104,
+  "regions_with_observed_lag_support_ge_0_80": 94,
+  "regions_with_delta_r_ge_0_10": 104,
+  "median_observed_delta_r": 0.3148682947417967,
+  "median_bootstrap_observed_lag_support": 0.9984999999999999,
+  "aet_exceeds_pet_records": 4976,
+  "total_monthly_records": 37440,
+  "aet_exceeds_pet_percentage": 13.290598290598291,
+  "maximum_aet_minus_pet_mm": 6651.719983155308,
+  "bootstrap_metrics": "/new-home/e24/e24438/india05deg/results/R8/asynchrony_bootstrap_metrics.csv",
+  "aet_pet_by_region": "/new-home/e24/e24438/india05deg/results/R8/aet_pet_consistency_by_region.csv",
+  "aet_pet_by_month": "/new-home/e24/e24438/india05deg/results/R8/aet_pet_consistency_by_month.csv"
+}

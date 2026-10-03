@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "region": "R9",
+  "suspect_cell_count": 10,
+  "suspect_region_ids": [
+    "INR_16.00_82.00",
+    "INR_16.50_82.00",
+    "INR_17.00_82.00",
+    "INR_17.00_82.50",
+    "INR_18.50_84.50",
+    "INR_19.00_84.50",
+    "INR_19.00_85.00",
+    "INR_19.50_86.00",
+    "INR_20.00_86.00",
+    "INR_20.00_86.50"
+  ],
+  "skipped_incomplete_suspect_region_ids": [],
+  "neighbours_per_suspect_cell": 8,
+  "diagnostic_only": true,
+  "cells_removed": 0,
+  "recommendation": "Review per-cell neighbor metrics before any exclusion decision."
+}

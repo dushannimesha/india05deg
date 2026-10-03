@@ -1,0 +1,5 @@
+component,short_label,descriptive_label,peak_month,peak_month_name,second_peak_month,second_peak_month_name,normalized_entropy,profile_maximum,maximum_regional_loading,top_region_1,top_region_2,top_region_3,top_region_4,top_region_5
+K4_C1,January–February northwestern mode,January–February northwestern precipitation mode,5,May,6,Jun,0.6958842793992907,0.3122619567001313,1778.1643024731973,INR_24.50_92.00,INR_24.00_92.00,INR_24.50_92.50,INR_24.00_92.50,INR_24.00_91.50
+K4_C2,June–September monsoon mode,June–September monsoon precipitation mode,7,Jul,6,Jun,0.5498122946141756,0.3540817966746345,2215.1772591754648,INR_13.00_74.50,INR_15.50_73.00,INR_16.00_73.00,INR_12.00_75.00,INR_11.50_75.00
+K4_C3,April–May transition mode,April–May transition precipitation mode,8,Aug,7,Jul,0.5595163730600894,0.3741500558052689,899.1669393671928,INR_25.00_90.50,INR_25.00_91.00,INR_25.00_90.00,INR_25.50_90.50,INR_22.50_78.00
+K4_C4,October–December retreat mode,October–December retreat precipitation mode,10,Oct,11,Nov,0.6695913120339283,0.3536665126365253,1005.7854097913564,INR_10.00_79.50,INR_10.50_79.50,INR_11.00_79.50,INR_11.50_79.50,INR_12.00_80.00

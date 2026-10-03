@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "region": "R9",
+  "input_dataset": "/new-home/e24/e24438/india05deg/data/processed/R9/india_R9_hydrology_monthly_1982_2011.parquet",
+  "output_parquet": "/new-home/e24/e24438/india05deg/data/processed/R9/india_R9_hydrology_monthly_1982_2011_qc.parquet",
+  "output_compressed_csv": "/new-home/e24/e24438/india05deg/data/processed/R9/india_R9_hydrology_monthly_1982_2011_qc.csv.gz",
+  "total_records": 52920,
+  "negative_aet_records_before_correction": 3600,
+  "negative_aet_percentage": 6.802721088435374,
+  "minimum_negative_aet_mm": -7983.662340415466,
+  "maximum_negative_aet_mm": -690.3877526575816,
+  "mean_negative_aet_mm": -3492.690262475948,
+  "median_negative_aet_mm": -2547.6254519334307,
+  "remaining_negative_aet_records": 0,
+  "maximum_absolute_correction_mm": 7983.662340415466,
+  "mean_absolute_correction_all_records_mm": 237.5979770391801,
+  "correction_rule": "actual_evapotranspiration_mm = max(actual_evapotranspiration_mm_raw, 0)",
+  "raw_values_preserved_in_column": "actual_evapotranspiration_mm_raw",
+  "corrected_records_flagged_in_column": "aet_negative_corrected"
+}

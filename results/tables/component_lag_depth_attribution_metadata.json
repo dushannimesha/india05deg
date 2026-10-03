@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "spatial_unit_count": 1173,
+  "spatial_unit_month_row_count": 14076,
+  "spatial_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "interpretation_model": "Common standardized Ridge model fitted separately at every depth.",
+  "predictive_model_selections_unchanged": true,
+  "causal_interpretation_supported": false,
+  "interpretation_warning": "Coefficients are conditional model associations. Correlated component-lag predictors can redistribute coefficient magnitude and sign.",
+  "selected_alphas": {
+    "SM_0_10cm_mm": 100.0,
+    "SM_10_40cm_mm": 100.0,
+    "SM_40_100cm_mm": 100.0,
+    "SM_100_200cm_mm": 100.0
+  },
+  "bootstrap_iterations": 5000,
+  "bootstrap_unit": "Complete regional unit with all 12 months",
+  "stable_positive_precipitation_coefficients": 21,
+  "stable_negative_precipitation_coefficients": 8,
+  "multicollinearity": {
+    "feature_correlation_condition_number": 163.15988118503665,
+    "maximum_absolute_pairwise_correlation": 0.7403485329925741,
+    "maximum_variance_inflation_factor": 12.777093709370877,
+    "median_variance_inflation_factor": 5.801877403448509
+  },
+  "coefficient_table": "/new-home/e24/e24438/india05deg/results/tables/component_lag_depth_standardized_coefficients.csv",
+  "memory_table": "/new-home/e24/e24438/india05deg/results/tables/component_lag_depth_memory_indices.csv",
+  "alpha_selection": "/new-home/e24/e24438/india05deg/results/tables/ridge_attribution_alpha_selection.csv",
+  "multicollinearity_table": "/new-home/e24/e24438/india05deg/results/tables/attribution_feature_multicollinearity.csv"
+}

@@ -1,0 +1,3 @@
+region_id,longitude,latitude,corrected_aet_records,corrected_fraction,minimum_raw_aet_mm,median_total_soil_moisture_mm,median_total_runoff_mm
+INR_14.00_74.00,74.25,14.25,360,1.0,-7473.223445551182,-7336.690182817661,-7478.535121738911
+INR_14.00_74.50,74.75,14.25,360,1.0,-862.6297251746768,-279.7063142322359,-886.4648228537469

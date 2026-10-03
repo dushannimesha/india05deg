@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "bootstrap_iterations": 20000,
+  "bootstrap_unit": "Complete regional unit with all 12 months",
+  "spatial_unit_count": 1173,
+  "core_spatial_unit_count": 0,
+  "layer_targets": [
+    "SM_0_10cm_mm",
+    "SM_10_40cm_mm",
+    "SM_40_100cm_mm",
+    "SM_100_200cm_mm"
+  ],
+  "random_seed": 20260806,
+  "pairwise_comparisons": [
+    [
+      "Ridge",
+      "MLP"
+    ],
+    [
+      "PINN_P_lambda10",
+      "MLP"
+    ],
+    [
+      "PINN_P_lambda10",
+      "Ridge"
+    ]
+  ],
+  "selection_policy": "Use a statistically significant Ridge-versus-MLP difference when present. When indistinguishable and within 1%, select Ridge for parsimony. Otherwise select lower observed RMSE while reporting uncertainty.",
+  "bootstrap_table": "/new-home/e24/e24438/india05deg/results/tables/layer_model_block_bootstrap.csv",
+  "selection_table": "/new-home/e24/e24438/india05deg/results/tables/final_layer_model_selection.csv"
+}

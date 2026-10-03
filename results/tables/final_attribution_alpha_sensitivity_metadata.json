@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "spatial_unit_count": 1173,
+  "spatial_unit_month_row_count": 14076,
+  "alpha_decision_source": "/new-home/e24/e24438/india05deg/results/tables/ridge_alpha_extended_decision.csv",
+  "extended_alpha_metadata_source": "/new-home/e24/e24438/india05deg/results/tables/ridge_alpha_extended_metadata.json",
+  "primary_attribution_policy": "minimum_geographic_cv_rmse",
+  "primary_alphas": {
+    "SM_0_10cm_mm": 30000.0,
+    "SM_10_40cm_mm": 30000.0,
+    "SM_40_100cm_mm": 30000.0,
+    "SM_100_200cm_mm": 30000.0
+  },
+  "regularization_sensitivity_policy": "one_standard_error",
+  "sensitivity_alphas": {
+    "SM_0_10cm_mm": null,
+    "SM_10_40cm_mm": null,
+    "SM_40_100cm_mm": null,
+    "SM_100_200cm_mm": null
+  },
+  "sensitivity_interpretation": "Targets marked intercept-only use the null model with no precipitation-component slopes. Their component memory indices, dominant lags, and bootstrap uncertainty are undefined; zero coefficients are shown only to represent the null model in coefficient outputs.",
+  "bootstrap_iterations_per_target_policy": 5000,
+  "mean_memory_increases_monotonically_with_depth": {
+    "minimum_geographic_cv_rmse": true,
+    "one_standard_error": null
+  },
+  "minimum_depthwise_coefficient_correlation_between_policies": null,
+  "dominant_lag_agreement_fraction_between_policies": null,
+  "primary_stable_positive_precipitation_coefficients": 31,
+  "primary_stable_negative_precipitation_coefficients": 0,
+  "interpretation": "Use the minimum-geographic-CV-alpha results as the primary common-model attribution. The one-standard-error sensitivity policy uses the intercept-only model when it meets the one-standard-error criterion; otherwise it uses the largest eligible finite Ridge alpha. Memory indices are not defined for intercept-only targets.",
+  "final_coefficient_table": "/new-home/e24/e24438/india05deg/results/tables/final_component_lag_depth_coefficients.csv",
+  "final_memory_table": "/new-home/e24/e24438/india05deg/results/tables/final_component_lag_depth_memory_indices.csv",
+  "alpha_sensitivity_coefficients": "/new-home/e24/e24438/india05deg/results/tables/component_lag_depth_coefficients_alpha_sensitivity.csv",
+  "alpha_sensitivity_memory": "/new-home/e24/e24438/india05deg/results/tables/component_lag_depth_memory_alpha_sensitivity.csv",
+  "coefficient_comparison": "/new-home/e24/e24438/india05deg/results/tables/attribution_alpha_coefficient_comparison.csv",
+  "memory_comparison": "/new-home/e24/e24438/india05deg/results/tables/attribution_alpha_memory_comparison.csv",
+  "depth_memory_summary": "/new-home/e24/e24438/india05deg/results/tables/attribution_alpha_depth_memory_summary.csv"
+}

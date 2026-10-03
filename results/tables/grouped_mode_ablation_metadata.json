@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "depth_specific_maximum_lags": {
+    "SM_0_10cm_mm": 3,
+    "SM_10_40cm_mm": 3,
+    "SM_40_100cm_mm": 3,
+    "SM_100_200cm_mm": 1
+  },
+  "component_labels_are_descriptive": true,
+  "causal_mode_attribution_supported": false,
+  "bootstrap_iterations": 20000,
+  "bootstrap_unit": "Complete India 0.5-degree spatial unit with all 12 months",
+  "input_dataset": "/new-home/e24/e24438/india05deg/data/processed/pinn_climatology_features_k4_lag3.parquet",
+  "spatial_unit_count": 1173,
+  "spatial_unit_month_row_count": 14076,
+  "geographic_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "core_eligible_spatial_unit_count": 0,
+  "core_metrics_note": "Core-only metrics are NaN when the input contains no core-eligible spatial units.",
+  "evaluation_scope": "India-wide pooled geographic cross-validation over the Stage-06 spatial-unit feature table; each prediction retains its spatial-unit ID and held-out fold.",
+  "interpretation": "A positive and bootstrap-supported RMSE increase after dropping a complete mode indicates that the grouped mode contributes predictive information beyond the remaining modes and static predictors.",
+  "summary": "/new-home/e24/e24438/india05deg/results/tables/grouped_mode_ablation_summary.csv",
+  "bootstrap": "/new-home/e24/e24438/india05deg/results/tables/grouped_mode_ablation_block_bootstrap.csv",
+  "importance_table": "/new-home/e24/e24438/india05deg/results/tables/grouped_mode_importance_by_depth.csv",
+  "predictions": "/new-home/e24/e24438/india05deg/results/tables/grouped_mode_ablation_predictions.csv.gz"
+}
